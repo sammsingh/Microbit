@@ -28,4 +28,10 @@
         . # # # . 
         . # . # . 
         . . . . .
-        `</field></block></next></block></statement></block></xml>
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="!i!7.Ajm|)D$~-:)33bC" x="518" y="374"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="device_show_leds" id="I(2zLlN(uoh.je_.tc6l"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement></block></xml>

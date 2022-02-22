@@ -56,3 +56,12 @@ input.onGesture(Gesture.Shake, function () {
         . # # # .
         `)
 })
+input.onGesture(Gesture.LogoDown, function () {
+    basic.showLeds(`
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        # # # # #
+        `)
+})
