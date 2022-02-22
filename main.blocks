@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="RadioMessage" id="5[/C9[H4(+r.mi@:T37R">0message1</variable><variable type="RadioMessage" id="?yZf;O}WQ6mzPG{{$#~R">0Left</variable><variable type="RadioMessage" id="J[0zaJ8ggzz7UFG*s,/F">0Right</variable><variable type="RadioMessage" id="_O9JMzkRA5+#pe1AU)6U">0Back</variable><variable type="RadioMessage" id="^Xu/$4tV/$)-]ak[p2zZ">0Forward</variable><variable type="RadioMessage" id="y-/15{_J4R3*[/F-H]gI">0CrazyJem</variable></variables><block type="device_button_event" id="inZ?pgs^I%Ylpnw@CIZ~" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radioBroadcastMessage" id="upmRs}1iQ$G|+qI6/K}N"><value name="msg"><shadow type="radioMessageCode" id="L7)E!9_*|Y[yx5oQ:8sh"><field name="MEMBER">0Left</field></shadow></value><next><block type="device_show_leds" id="!~~IaGrj*m:y@QCYlg+`"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        # # # . . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id=":v[_%b~K(kx|=$7k[u!B" x="254" y="0"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radioBroadcastMessage" id="9}$DU}|@R^.MX.hM%vET"><value name="msg"><shadow type="radioMessageCode" id="2s5@%{6u#L-LO+1C%h[O"><field name="MEMBER">0Right</field></shadow></value><next><block type="device_show_leds" id="bEZ3[oOIHg7bgAB*;iiC"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . . # # # 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="YOX~s%~1t12;TgBGL_;D" x="514" y="2"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="radioBroadcastMessage" id="foG!RUgD8}(0|m`0U}-z"><value name="msg"><shadow type="radioMessageCode" id="67^^FD,y-vd60iGq6ue`"><field name="MEMBER">0CrazyJem</field></shadow></value><next><block type="device_show_leds" id="dDvy2*XXGB;}{[v_=.Qd"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # # # # 
+        . # # # . 
+        . # # # .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="r8TQeG;@hkc1pn7TYe34" x="1" y="372"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="radioBroadcastMessage" id="zPHTJgBh?~H$#(BQ5_~("><value name="msg"><shadow type="radioMessageCode" id="9I32=[-d888z9|u??!WW"><field name="MEMBER">0Back</field></shadow></value><next><block type="device_show_leds" id="!Q^]}?:y3*!y_;zANC:K"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="BO.^wX;)vHuIf.67Ln0[" x="254" y="373"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="radioBroadcastMessage" id="uJ2Lf_nH^@))*$X5z+~*"><value name="msg"><shadow type="radioMessageCode" id="VlVn*Df13Py;D~?-z$UA"><field name="MEMBER">0Forward</field></shadow></value><next><block type="device_show_leds" id=",Gt5_,iEt+9$5?hmZ4oD"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        . # # # . 
+        . # . # . 
+        . . . . .
+        `</field></block></next></block></statement></block></xml>
